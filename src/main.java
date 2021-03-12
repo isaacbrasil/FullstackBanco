@@ -11,7 +11,7 @@ public class main {
         PessoaFisica Isaac = new PessoaFisica(1, "Isaac", "Goiânia", 1000, idades, "Masculino");
 
         Calendar idades2 = Calendar.getInstance();
-        idades.set(2018, 11, 27);
+        idades2.set(2018, 11, 27);
         PessoaFisica Perola = new PessoaFisica(2, "Perola", "Goiânia", 999, idades2, "Feminino");
 
         System.out.println("Isaac: " + Isaac.getIdade());

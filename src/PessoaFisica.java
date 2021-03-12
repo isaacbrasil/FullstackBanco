@@ -53,7 +53,7 @@ public class PessoaFisica extends Pessoa {
     }
 
     public PessoaFisica(int id, String nome, String Endereco, int cpf, Calendar dtNascimento, String gender) {
-        // super(id, nome, Endereco);
+        super(id, nome, Endereco);
         this.cpf = cpf;
         this.dtNascimento = dtNascimento;
         this.gender = gender;

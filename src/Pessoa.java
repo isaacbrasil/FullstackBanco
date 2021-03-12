@@ -23,6 +23,12 @@ public class Pessoa {
         return this.Endereco;
     }
 
+    public Pessoa(int id, String nome, String Endereco) {
+        this.id = id;
+        this.nome = nome;
+        this.Endereco = Endereco;
+    }
+
     public void setEndereco(String Endereco) {
         this.Endereco = Endereco;
     }
