@@ -1,3 +1,5 @@
+package Banco.bancofullstack.src;
+
 public class PessoaJuridica extends Pessoa {
     private int cnpj;
     private String atividade;

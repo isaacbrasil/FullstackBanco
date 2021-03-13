@@ -1,3 +1,5 @@
+package Banco.bancofullstack.src;
+
 public class ContaEspecial extends Conta {
     private double limite;
 

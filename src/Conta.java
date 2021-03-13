@@ -1,3 +1,5 @@
+package Banco.bancofullstack.src;
+
 public class Conta {
     private Pessoa cliente;
     private int nrConta;

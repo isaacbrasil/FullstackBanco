@@ -1,3 +1,5 @@
+package Banco.bancofullstack.src;
+
 public class Pessoa {
     private int id;
     private String nome;

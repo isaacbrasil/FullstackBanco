@@ -1,3 +1,5 @@
+package Banco.bancofullstack.src;
+
 public class ContaPoupanca extends Conta {
 
     public ContaPoupanca(Pessoa cliente, int nrConta, double saldo, double txCorrecao) {
