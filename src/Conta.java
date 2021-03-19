@@ -4,6 +4,7 @@ public class Conta {
     private Pessoa cliente;
     private int nrConta;
     private double saldo;
+    private String categoria;
 
     public Conta(Pessoa cliente, int nrConta, double saldo) {
         super();
@@ -35,10 +36,6 @@ public class Conta {
     public void setSaldo(double newsaldo) {
         this.saldo = newsaldo;
     }
-
-    // public Conta abrirConta() {
-    // return new Conta();
-    // }
 
     protected Boolean temSaldo(double valor) {
         if (this.getSaldo() >= valor) {

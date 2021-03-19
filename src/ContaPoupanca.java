@@ -2,9 +2,10 @@ package Banco.bancofullstack.src;
 
 public class ContaPoupanca extends Conta {
 
-    public ContaPoupanca(Pessoa cliente, int nrConta, double saldo, double txCorrecao) {
-        super(cliente, nrConta, saldo);
+    public ContaPoupanca(Pessoa aux, int numeroC, double saldo, double taxa, String cat) {
+        super(aux, numeroC, saldo);
         this.txCorrecao = txCorrecao;
+
     }
 
     private double txCorrecao;

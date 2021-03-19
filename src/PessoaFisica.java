@@ -1,5 +1,6 @@
 package Banco.bancofullstack.src;
 
+import java.sql.Date;
 import java.util.Calendar;
 
 public class PessoaFisica extends Pessoa {

@@ -19,8 +19,10 @@ public class ContaEspecial extends Conta {
         }
     }
 
-    public ContaEspecial(Pessoa cliente, int nrConta, double saldo, double limite) {
-        super(cliente, nrConta, saldo);
+    public ContaEspecial(Pessoa aux, int numeroC, double saldo, double limite2, String cat) {
+        super(aux, numeroC, saldo);
         this.limite = limite;
+
     }
+
 }
